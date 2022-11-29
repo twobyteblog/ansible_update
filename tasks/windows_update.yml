@@ -1,0 +1,22 @@
+---
+
+# install available updates
+
+- name: installing all critical updates
+  win_updates:
+    category_names:
+    - CriticalUpdates
+    - SecurityUpdates
+    - UpdateRollups
+    - Updates
+    - DefinitionUpdates
+    state: installed
+  register: update_result
+
+# reboot host if required
+
+- name: reboot if required
+  win_reboot:
+    reboot_timeout: 1200
+  when: update_result.reboot_required
+
