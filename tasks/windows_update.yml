@@ -4,12 +4,7 @@
 
 - name: installing all critical updates
   win_updates:
-    category_names:
-    - CriticalUpdates
-    - SecurityUpdates
-    - UpdateRollups
-    - Updates
-    - DefinitionUpdates
+    category_names: "{{ windows_updates_categories }}"
     state: installed
   register: update_result
 

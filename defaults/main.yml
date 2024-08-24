@@ -1,2 +1,17 @@
 ---
-# defaults file for yum_update
+# defaults file for os_update
+
+# Categories to update for Windows-based hosts.
+windows_updates_categories:
+  # - 'Application'
+  # - 'Connectors'
+  - 'CriticalUpdates'
+  - 'DefinitionUpdates'
+  # - 'DeveloperKits'
+  # - 'FeaturePacks'
+  # - 'Guidance'
+  - 'SecurityUpdates'
+  # - 'ServicePacks'
+  # - 'Tools'
+  - 'UpdateRollups'
+  - 'Updates'
