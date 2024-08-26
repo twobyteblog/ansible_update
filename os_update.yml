@@ -1,8 +1,0 @@
----
-
-- name: Performing update on host(s)
-  hosts: all
-  max_fail_percentage: 49
-  serial: 6
-  roles:
-    - role: os_update

@@ -1,5 +1,5 @@
 ---
-# defaults file for os_update
+# defaults file for ansible_update
 
 # Categories to update for Windows-based hosts.
 windows_updates_categories:
