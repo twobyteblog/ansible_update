@@ -2,7 +2,7 @@
 
 Ansible role which updates the host's operating system. This role supports CentOS, Fedora, Debian and Windows operating systems.
 
-# Requirements
+## Requirements
 
 This role requires root access to the host system. Specify it globally, or add it to your playbook (example below).
 
@@ -13,7 +13,7 @@ This role requires root access to the host system. Specify it globally, or add i
       become: yes
 ```
 
-# Installation
+## Installation
 
 To use this role, clone the respository into the directory containing your other Ansible roles.
 
