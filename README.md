@@ -1,4 +1,4 @@
-# Ansible Role: OS Updates
+## Ansible Role: OS Updates
 
 Ansible role which updates the host's operating system. This role supports CentOS, Fedora, Debian and Windows-based operating systems.
 
@@ -14,6 +14,8 @@ This role requires root access to the host system. Specify it globally, or add i
 ```
 
 ## Setup Instructions
+
+### Clone Respository
 
 Clone the project into the roles directory of your Ansible Controller.
 
